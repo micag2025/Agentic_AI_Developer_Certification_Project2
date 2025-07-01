@@ -6,6 +6,13 @@
 
 ## Objective 
 • Design and implement a system composed of multiple specialized agents that coordinate to accomplish a complex task, showcasing multi-agent, role-based behavior, and inter-agent collaboration. 
+• Build a working multi-agent system that demonstrates transitioning from workflows to agents and designing multi-agent collaboration using orchestration frameworks  
+  Project Objectives
+• This project, you'll design and implement a multi-agent system that demonstrates concepts such as:  
+ - Tool Integration: Show how agents can extend their capabilities through built-in and custom tools    
+ - Multi-Agent Collaboration: Design agents with distinct roles that communicate and coordinate effectively    
+ - Agent Orchestration: Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar) for workflow management  
+
 
 ## Requirements 
 • Use of LangGraph or similar orchestration framework 
@@ -13,36 +20,32 @@
 • Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support 
 • A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g., travel planner, multi-document summarizer, multi-turn form filler) 
 
+ The system includes the following Components:    
+ 1. Multi-Agent System (minimum 3 agents)  
+    - At least 3 agents with distinct roles working together    
+    - Clear communication or coordination between agents    
+    - Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar)  
+ 2. Tool Integration  
+     - Your system should integrate at least 3 different tools  
+     - Tools can be built-in (LangChain tools) or custom implementations  
+     - Tools should extend capabilities beyond basic LLM responses (e.g., web search, math calculations, file processing, API calls, etc.)    
+ Optional Enhancements:  
+- Human-in-the-loop interactions    
+- Use of communication protocol such as MCP    
+- Formal evaluation metrics and benchmarking against baselines  
+
+
 ## Deliverables 
 • A multi-agent system with a clearly orchestrated workflow 
 • Demonstration script or UI that showcases the collaboration 
 • README explaining agent roles, task flow, and evaluation logic 
 • Optional logs or performance summaries
 
- This project wraps up Module 2 by having you build a working multi-agent system that demonstrates the key concepts from Weeks 5-7: transitioning from workflows to
- agents and designing multi-agent collaboration using orchestration frameworks
 
-  Project Objectives
- In this project, you'll design and implement a multi-agent system that demonstrates your mastery of the core Module 2 concepts:
- - Tool Integration: Show how agents can extend their capabilities through built-in and custom tools  
- - Multi-Agent Collaboration: Design agents with distinct roles that communicate and coordinate effectively  
- - Agent Orchestration: Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar) for workflow management
 
- Your system must include:  
- Required Components:  
- 1. Multi-Agent System (minimum 3 agents)
-    - At least 3 agents with distinct roles working together  
-    - Clear communication or coordination between agents  
-    - Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar)
- 2. Tool Integration
-     - Your system should integrate at least 3 different tools
-     - Tools can be built-in (LangChain tools) or custom implementations
-     - Tools should extend capabilities beyond basic LLM responses (e.g., web search, math calculations, file processing, API calls, etc.)  
- Optional Enhancements:  
- Human-in-the-loop interactions  
- Use of communication protocol such as MCP  
- Formal evaluation metrics and benchmarking against baselines
+ 
 
+ 
 
 Cross-Publication Insight Assistant 🔍
  Build a system that helps users explore patterns and trends across multiple AI/ML projects. The input is a list of GitHub repos or Ready Tensor publications, plus an optional user query (e.g., tool usage, evaluation methods, task types).

@@ -2,7 +2,11 @@
 
 ![Image Logo]()
 
-### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistant, LangChain, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
+### Tags : AAIDC2025, Agentic AI, Certification Program, LangChain, RAG, (RAG Evaluation), Agentic Systems, AI Agents, Generation-Evaluation, Graph Workflows, LangGraph, Writer-Critic, Custom Tools, Tools, Tool Design, Tool Use, Tool Integration, Tool Testing, Agent Workflows, Flow Engineering, AI Orchestration, LLM Applications, LLM, Evaluation, (LLM Evaluation) LangSmith, Monitoring, Observability, OpenAI, Agent Collaboration, Agent Design, Agentic Architectures, Agentic Patterns, Model Context Protocol, MCP, Protocols, Multi-Agent Systems, AI System Design, AI Systems, Entity Extraction, Keyword Extraction, Modular AI Systems, Tag Extraction, Design Pattens, System Architecture, Tool-Argumented Agents, AI Collaboration, Role Assignment, Task Decomposition, AI Integration, Agent Testing, AI Evaluation, Evaluation, Agent Reliability, Human-in-the-Loop, LLM Testing, LLM-as-a-Judge, System Benchmarks, AI Evaluation, Evaluation Methods, Golden Datasets, Human-in-the-Loop, LLM-as-a-Judge, Red Teaming, Safety Benchmarks, Agent Evaluation, Evaluation Framework, Evaluation Metrics, Evaluation Strategy, Metric Selection 
+
+
+
+
 ### Co-Authors: chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
 ### Models : [Github]()
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)

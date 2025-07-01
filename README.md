@@ -1,8 +1,8 @@
-# Agentic_AI_Developer_Certification_Project2 _Module2
+# Agentic_AI_Developer_Certification_Project2 _Module2  
 
 
-• Focus: Multi-Agent Workflows, Communication, LangGraph 
-• Theme: Collaborative Problem Solving
+• Focus: Multi-Agent Workflows, Communication, LangGraph   
+• Theme: Collaborative Problem Solving  
 
 ## Objective 
 • Design and implement a system composed of multiple specialized agents that coordinate to accomplish a complex task, showcasing multi-agent, role-based behavior, and inter-agent collaboration. 
@@ -15,10 +15,10 @@
 
 
 ## Requirements 
-• Use of LangGraph or similar orchestration framework 
-• At least two distinct agents with: Different roles (e.g., planner vs executor), Defined communication channels or memory sharing 
-• Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support 
-• A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g., travel planner, multi-document summarizer, multi-turn form filler) 
+• Use of LangGraph or similar orchestration framework   
+• At least two distinct agents with: Different roles (e.g., planner vs executor), Defined communication channels or memory sharing   
+• Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support   
+• A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g., travel planner, multi-document summarizer, multi-turn form filler)   
 
  The system includes the following Components:    
  1. Multi-Agent System (minimum 3 agents)  
@@ -62,19 +62,12 @@ Cross-Publication Insight Assistant 🔍
  🛠 Tools you might use:  
  Repo Reader / Parser · Keyword/Tag Extractor · RAG Retriever · Web Search  
 
-Project Publication 📝
- Create a short publication on the Ready Tensor platform that:
- Describes your project, what it does, and how it works
- Follows best practices from our Technical Evaluation Rubric for the
- Tool / App / Software Development category
- Meets at least 70% of the listed criteria
 
-Project GitHub Repository 🗂
- Submit a repo that:
- 📄 
-Contains clean, working code for your multi-agent system
- Defines roles and communication flows between agents
- Includes setup instructions and sample interactions
- Meets the “Essential” level of our repo evaluation rubric
- Satisfies at least 70% of the Essential criteria
+
+Project GitHub Repository 🗂  
+- Contains clean, working code for your multi-agent system  
+- Defines roles and communication flows between agents  
+- Includes setup instructions and sample interactions  
+- Meets the “Essential” level of our repo evaluation rubric  
+
  

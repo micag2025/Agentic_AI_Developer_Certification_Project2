@@ -10,20 +10,20 @@
 • This project is designed and implemented a multi-agent system that demonstrates concepts such as:  
  - _Tool Integration_: Show how agents can extend their capabilities through built-in and custom tools    
  - _Multi-Agent Collaboration_: Design agents with distinct roles that communicate and coordinate effectively    
- - _Agent Orchestration_: Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar) for workflow management  
+ - _Agent Orchestration_: Use an orchestration framework (LangGraph) for workflow management  
 
 
 ## Requirements 
-• Use of LangGraph or similar orchestration framework   
-• At least two distinct agents with: Different roles (e.g., planner vs executor), Defined communication channels or memory sharing   
+• Use of LangGraph  orchestration framework   
+• At least three distinct agents with: Different roles (e.g., planner vs executor), Defined communication channels or memory sharing   
 • Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support   
-• A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g., travel planner, multi-document summarizer, multi-turn form filler)   
+• A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g.,multi-document summarizer, multi-turn form filler)   
 
  The system includes the following Components:    
  1. Multi-Agent System (minimum 3 agents)  
     - At least 3 agents with distinct roles working together    
     - Clear communication or coordination between agents    
-    - Use an orchestration framework (LangGraph, CrewAI, AutoGen, or similar)  
+    - Use an orchestration framework (LangGraph)  
  2. Tool Integration  
      - Your system should integrate at least 3 different tools  
      - Tools can be built-in (LangChain tools) or custom implementations  

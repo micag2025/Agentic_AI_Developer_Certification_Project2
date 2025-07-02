@@ -43,7 +43,7 @@
 
 ## Use Case 
 Cross-Publication Insight Assistant    
-Build a system that helps users explore patterns and trends across multiple AI/ML projects. The input is a list of GitHub repos or Ready Tensor publications, plus an optional user query (e.g., tool usage, evaluation methods, task types).  
+Build a system that helps users explore patterns and trends across multiple AI/ML projects. The input is a list of Ready Tensor publications, plus an optional user query (e.g., tool usage, evaluation methods, task types).  
 Support at least two of the following query patterns, each with multiple working examples:  
  - Aggregate (Map-Reduce) – e.g., “What % of these projects use LangGraph?”    
  - Compare & Contrast – e.g., “How do CrewAI and LangChain projects differ?”    
@@ -66,4 +66,53 @@ Project GitHub Repository 🗂
 - Includes setup instructions and sample interactions  
 - Meets the “Essential” level of our repo evaluation rubric  
 
- 
+ ai-project-explorer/
+│
+├── app.py                       # Entry point: initializes LangGraph & runs flow
+├── graph.py                     # LangGraph flow logic (nodes, edges, state)
+├── publication_loader.py        # Loads and validates publications dataset
+│
+├── agents/
+│   ├── __init__.py
+│   ├── analyzer_agent.py        # Extracts tasks/tools from each project
+│   ├── aggregator_agent.py      # For Aggregate queries
+│   ├── comparator_agent.py      # For Compare & Contrast
+│   └── summarizer_agent.py      # For Find & Summarize queries (optional)
+│
+├── tools/
+│   ├── __init__.py
+│   ├── keyword_extractor.py     # Extracts keywords/metrics from text
+│   ├── statistics.py            # Aggregation and comparison math
+│   └── group_splitter.py        # Splits publications into groups
+│
+├── llm/
+│   ├── __init__.py
+│   └── model_selector.py        # Contains your get_llm() function
+│
+├── data/
+│   ├── sample_publications.json
+│   └── outputs/
+│
+├── utils/
+│   ├── constants.py
+│   └── logging_utils.py
+│
+├── tests/
+│   ├── test_graph_flow.py
+│   └── test_agents.py
+│
+├── .env                         # Contains GROQ_API_KEY, OPENAI_API_KEY
+├── requirements.txt
+└── README.md
+
+rt-agentic-ai-cert-project2/
+├── agents/
+│   └── analyzer_agent.py
+├── config/
+│   └── config.yaml
+├── data/
+├── outputs/
+├── llm/
+│   └── model_selector.py
+├── paths.py
+├── utils.py

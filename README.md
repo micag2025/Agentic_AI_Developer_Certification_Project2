@@ -67,7 +67,8 @@ Project GitHub Repository 🗂
 - Meets the “Essential” level of our repo evaluation rubric  
 
 
-
+## Repository Structure
+```
  ai-project-explorer/
 │
 ├── app.py                       # Entry point: initializes LangGraph & runs flow
@@ -106,7 +107,9 @@ Project GitHub Repository 🗂
 ├── .env                         # Contains GROQ_API_KEY, OPENAI_API_KEY
 ├── requirements.txt
 └── README.md
+```
 
+```
 rt-agentic-ai-cert-project2/
 ├── agents/
 │   └── analyzer_agent.py
@@ -118,3 +121,4 @@ rt-agentic-ai-cert-project2/
 │   └── model_selector.py
 ├── paths.py
 ├── utils.py
+```

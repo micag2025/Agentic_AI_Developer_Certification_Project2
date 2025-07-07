@@ -1,0 +1,18 @@
+gradio
+langchain.chat_models
+langchain.schema
+
+
+python-dotenv
+langgraph
+langchain
+langchain-core
+langchain-openai
+tavily-python
+pydantic
+graphviz
+ipython
+requests
+
+openai
+-U langchain-openai

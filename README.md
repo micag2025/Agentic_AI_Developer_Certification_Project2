@@ -1,4 +1,4 @@
-# Agentic AI Developer Certification:LangGraph-Orchestrated Research Assistant for Ready Tensor
+# Agentic AI Developer Certification: LangGraph-Orchestrated Research Assistant for Ready Tensor
 
 ## Objective   
 • Design and implement a system composed of multiple specialized agents that coordinate to accomplish a complex task, showcasing multi-agent, role-based behavior, and inter-agent collaboration.   

@@ -71,8 +71,8 @@ Support at least two of the following query patterns, each with multiple working
 1. **Clone the repo** and be sure you're on the `main` branch:
 
    ```bash
-   git clone https://github.com/Joshua-Abok/rag_apk TO BE CHANGED
-   cd rag_apk   TO BE CHANGED 
+   git clone https://github.com/micag2025/Agentic_AI_Developer_Certification_Project2
+   cd Agentic_AI_Developer_Certification_Project2  
    ```
 2. **Install dependencies**   
    Install required packages (preferably in a virtual environment):

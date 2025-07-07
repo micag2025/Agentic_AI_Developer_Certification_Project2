@@ -1,5 +1,15 @@
 # Agentic_AI_Developer_Certification_Project2 _Module2  
 
+Ready Tensor Research Explorer: Multi-Publication Analyzer
+Character count: 57
+
+LangGraph-Orchestrated Research Assistant for Ready Tensor
+Character count: 56
+
+AI Assistant for Ready Tensor Multi-Publication Review
+Character count: 53
+
+
 
 • Focus: Multi-Agent Workflows, Communication, LangGraph     
 • Theme: Collaborative Problem Solving    

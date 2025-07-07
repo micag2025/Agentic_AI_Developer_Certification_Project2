@@ -53,16 +53,17 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
    ```
 ## Running the Application  
 1. **Prepare data**    
-   Ensure `project_1_publications.json` is present in the data/ directory (or your configured DATA_DIR).  
+   Ensure `project_1_publications.json` is present in the data/ directory (or your configured DATA_DIR).
+      > _Note:_ The `sample dataset` is available in the "Datasets" section of the related publication.
 
-2. **Launch the App**     TO BE DONE !   
+3. **Launch the App**     TO BE DONE !   
    Run Streamlit from the project root:  
   
    ```
    streamlit run app/main.py
    ```
    
-3. **Access the Interface**          
+4. **Access the Interface**          
    Open your browser to the local Streamlit URL (usually http://localhost:8501).        
 
 You can now interact with the Ready Tensor Publication Explorer!  

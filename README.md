@@ -1,18 +1,4 @@
-# Agentic_AI_Developer_Certification_Project2 _Module2  
-
-Ready Tensor Research Explorer: Multi-Publication Analyzer
-Character count: 57
-
-LangGraph-Orchestrated Research Assistant for Ready Tensor
-Character count: 56
-
-AI Assistant for Ready Tensor Multi-Publication Review
-Character count: 53
-
-
-
-• Focus: Multi-Agent Workflows, Communication, LangGraph     
-• Theme: Collaborative Problem Solving    
+# Agentic AI Developer Certification:LangGraph-Orchestrated Research Assistant for Ready Tensor
 
 ## Objective   
 • Design and implement a system composed of multiple specialized agents that coordinate to accomplish a complex task, showcasing multi-agent, role-based behavior, and inter-agent collaboration.   
@@ -22,34 +8,27 @@ Character count: 53
  - _Multi-Agent Collaboration_: Design agents with distinct roles that communicate and coordinate effectively    
  - _Agent Orchestration_: Use an orchestration framework (LangGraph) for workflow management  
 
-
 ## Requirements 
-• Use of LangGraph  orchestration framework   
-• At least three distinct agents with: Different roles (e.g., planner vs executor), Defined communication channels or memory sharing   
-• Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support   
-• A goal-driven flow: agents must work together to solve a user-defined problem or task (e.g.,multi-document summarizer, multi-turn form filler)   
-
- The system includes the following Components:    
- 1. Multi-Agent System (minimum 3 agents)  
-    - At least 3 agents with distinct roles working together    
-    - Clear communication or coordination between agents    
-    - Use an orchestration framework (LangGraph)  
- 2. Tool Integration  
-     - Your system should integrate at least 3 different tools  
-     - Tools can be built-in (LangChain tools) or custom implementations  
-     - Tools should extend capabilities beyond basic LLM responses (e.g., web search, math calculations, file processing, API calls, etc.)
-    
+• Use of LangGraph  orchestration framework     
+• The system includes a Multi-Agent System:   
+    - At least 3 agents (4? agents) with distinct roles working together        
+    - Clear communication or coordination between agents        
+    - Use a LangGraph orchestration framework    
+• The system includes a Tool Integration:  
+   - The system integrates at least 3 different tools    
+   - Tools are built-in (LangChain tools) or custom implementations    
+   - Tools extend capabilities beyond basic LLM responses (e.g., web search, math calculations, file processing, API calls, etc.)  
+ 
  Optional Enhancements:    
 - Human-in-the-loop interactions      
-- Use of communication protocol such as MCP      
-- Formal evaluation metrics and benchmarking against baselines    
-
+- Use of communication protocol such as MCP  ( Use of Model Context Protocol (MCP): implement agent interfaces and communication patterns compatible with MCP to ensure interoperability, modularity, and persistence support)        
+- Formal evaluation metrics and benchmarking against baselines           
 
 ## Deliverables 
 • A multi-agent system with a clearly orchestrated workflow 
 • Demonstration script or UI that showcases the collaboration 
 • README explaining agent roles, task flow, and evaluation logic 
-• Optional logs or performance summaries
+
 
 ## Use Case 
 Cross-Publication Insight Assistant    
@@ -69,66 +48,7 @@ Support at least two of the following query patterns, each with multiple working
  Repo Reader / Parser · Keyword/Tag Extractor · RAG Retriever · Web Search    
 
 
-
-Project GitHub Repository 🗂  
-- Contains clean, working code for your multi-agent system  
-- Defines roles and communication flows between agents  
-- Includes setup instructions and sample interactions  
-- Meets the “Essential” level of our repo evaluation rubric  
-
-
 ## Repository Structure
 ```
- ai-project-explorer/
-│
-├── app.py                       # Entry point: initializes LangGraph & runs flow
-├── graph.py                     # LangGraph flow logic (nodes, edges, state)
-├── publication_loader.py        # Loads and validates publications dataset
-│
-├── agents/
-│   ├── __init__.py
-│   ├── analyzer_agent.py        # Extracts tasks/tools from each project
-│   ├── aggregator_agent.py      # For Aggregate queries
-│   ├── comparator_agent.py      # For Compare & Contrast
-│   └── summarizer_agent.py      # For Find & Summarize queries (optional)
-│
-├── tools/
-│   ├── __init__.py
-│   ├── keyword_extractor.py     # Extracts keywords/metrics from text
-│   ├── statistics.py            # Aggregation and comparison math
-│   └── group_splitter.py        # Splits publications into groups
-│
-├── llm/
-│   ├── __init__.py
-│   └── model_selector.py        # Contains your get_llm() function
-│
-├── data/
-│   ├── sample_publications.json
-│   └── outputs/
-│
-├── utils/
-│   ├── constants.py
-│   └── logging_utils.py
-│
-├── tests/
-│   ├── test_graph_flow.py
-│   └── test_agents.py
-│
-├── .env                         # Contains GROQ_API_KEY, OPENAI_API_KEY
-├── requirements.txt
-└── README.md
-```
-
-```
-rt-agentic-ai-cert-project2/
-├── agents/
-│   └── analyzer_agent.py
-├── config/
-│   └── config.yaml
-├── data/
-├── outputs/
-├── llm/
-│   └── model_selector.py
-├── paths.py
-├── utils.py
+TO BE ENCLOSED
 ```

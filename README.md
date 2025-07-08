@@ -22,13 +22,12 @@ publication_comparator/
 ├── sample_publications/      # Directory containing input publication `.txt` files
 │   └── <publication .txt>    #     ↳ Each text file represents a single publication
 ├── requirements.txt          # Dependency list for pip install (Streamlit, LangChain, etc.)
-├── tests/                    # Pytest unit tests for all modules   TO BE TESTED AND EVENTUALLY ENCLOSED 
-│   └── test_explorer.py      #     ↳ Unit tests for the PublicationExplorer class and its methods
 ├── README.md          	      # 
 ├── .gitignore        	      # TO BE ENCLOSED 
-├── LICENCE    	              # 
-├── outputs/    	      # TO BE ENCLOSED 
+├── LICENCE    	            # 
+├── outputs/    	            # TO BE ENCLOSED 
 │   └── <response .txt>       #     ↳ Each text file represents a single publication
+├── project_1_publications.json   # Sample Ready Tensor dataset 
 
 ```
 

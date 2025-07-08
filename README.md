@@ -92,4 +92,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 ## Contact Information 
-For bug reports or feature requests, open an issue.
+If you encounter bugs, have questions, or would like to request a new feature, please [open an issue](https://github.com/micag2025/Agentic_AI_Developer_Certification_Project2/issues) on this repository.  
+Contributions and feedback are welcome!
+
+

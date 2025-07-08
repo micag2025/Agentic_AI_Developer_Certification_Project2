@@ -30,7 +30,7 @@ publication_comparator/
 ├── project_1_publications.json   # Sample Ready Tensor dataset 
 
 ```
-
+> _Note:_ *The Ready_Tensor_Multi_Publications_Assistent.ipynb* will be droppe out. Now it could be useful to work on the intro and features.  
 
 ## Prerequisites
 * Python 3.10+

@@ -14,7 +14,22 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 
 ## Repository Structure  
 ```
-**TO BE ENCLOSED**
+publication_comparator/
+├── app.py                    # Main Streamlit app UI (entry point for the web interface)
+├── utils.py                  # Utility functions (file sanitization, masking, etc.)
+├── explorer.py               # Core logic for publication analysis using LangGraph and LLMs
+├── .env.example              # Example Environment file storing secret API keys 
+├── sample_publications/      # Directory containing input publication `.txt` files
+│   └── <publication .txt>    #     ↳ Each text file represents a single publication
+├── requirements.txt          # Dependency list for pip install (Streamlit, LangChain, etc.)
+├── tests/                    # Pytest unit tests for all modules   TO BE TESTED AND EVENTUALLY ENCLOSED 
+│   └── test_explorer.py      #     ↳ Unit tests for the PublicationExplorer class and its methods
+├── README.md          	      # 
+├── .gitignore        	      # TO BE ENCLOSED 
+├── LICENCE    	              # 
+├── outputs/    	      # TO BE ENCLOSED 
+│   └── <response .txt>       #     ↳ Each text file represents a single publication
+
 ```
 
 

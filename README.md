@@ -14,7 +14,7 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 
 ## Repository Structure  
 ```
-publication_comparator/
+Agentic_AI_Developer_Certification_Project2/
 ├── app.py                    # Main Streamlit app UI (entry point for the web interface)
 ├── utils.py                  # Utility functions (file sanitization, masking, etc.)
 ├── explorer.py               # Core logic for publication analysis using LangGraph and LLMs
@@ -22,9 +22,9 @@ publication_comparator/
 ├── sample_publications/      # Directory containing input publication `.txt` files
 │   └── <publication .txt>    #     ↳ Each text file represents a single publication
 ├── requirements.txt          # Dependency list for pip install (Streamlit, LangChain, etc.)
-├── README.md          	      # 
-├── .gitignore        	      # TO BE ENCLOSED 
-├── LICENCE    	            # 
+├── README.md          	      # This file contains the documentation for the project, explaining how to set it up and use it.
+├── .gitignore        	      # This file specifies the files and folders that should be ignored by Git.   TO BE ENCLOSED 
+├── LICENCE    	            # This file contains the license for the project.
 ├── outputs/    	            # TO BE ENCLOSED 
 │   └── <response .txt>       #     ↳ Each text file represents a single publication
 ├── project_1_publications.json   # Sample Ready Tensor dataset 
@@ -91,4 +91,5 @@ TO BE ENCLOSED
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
 
+## Contact Information 
 

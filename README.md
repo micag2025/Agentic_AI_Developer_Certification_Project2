@@ -70,7 +70,7 @@ publication_comparator/
    Ensure `project_1_publications.json` is present in the data/ directory (or your configured DATA_DIR).
       > _Note:_ The `sample dataset` is available in the "Datasets" section of the related publication.
 
-3. **Launch the App**     TO BE DONE !   
+3. **Launch the App**     
    Run Streamlit from the project root:  
   
    ```
@@ -80,7 +80,7 @@ publication_comparator/
 4. **Access the Interface**          
    Open your browser to the local Streamlit URL (usually http://localhost:8501).        
 
-You can now interact with the Ready Tensor Publication Explorer!  
+You can now interact with the LangGraph-Orchestrated Research Assistant for Ready Tensor!  
 
 
 ## Usage Examples 

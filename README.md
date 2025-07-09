@@ -27,8 +27,9 @@ Agentic_AI_Developer_Certification_Project2/
 ├── README.md          	      # This file contains the documentation for the project, explaining how to set it up and use it.
 ├── .gitignore        	      # This file specifies the files and folders that should be ignored by Git.   TO BE ENCLOSED 
 ├── LICENCE    	            # This file contains the license for the project.
-├── outputs/    	            # TO BE ENCLOSED 
-│   └── <response .txt>       #     ↳ Each text file represents a single publication
+├── outputs/    	            # 
+│   └── <comparison publ1 vs publ2 .html>       #     ↳ Each text file represents the output of the comparison publ1 vs publ2 in htlm
+│   └── <comparison publ1 vs publ2 .json>       #     ↳ Each text file represents the output of the comparison publ1 vs publ2 in json
 ├── loader.py                 # Converts JSON into individual .txt files from the Sample Ready Tensor dataset
 ├── paths.py                  # Centralized path definitions
 ├── generate_graphviz_flowchart.py   # Generates a Graphviz PNG diagram of the LangGraph orchestration flow

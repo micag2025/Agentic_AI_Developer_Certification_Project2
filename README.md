@@ -32,8 +32,11 @@ Agentic_AI_Developer_Certification_Project2/
 ├── loader.py                 # Converts JSON into individual .txt files from the Sample Ready Tensor dataset
 ├── paths.py                  # Centralized path definitions
 ├── generate_graphviz_flowchart.py   # Generates a Graphviz PNG diagram of the LangGraph orchestration flow
+├── generate_langgraph_mermaid.py   # Generates a Mermaid diagram of the LangGraph orchestration flow
 ├── docs/
 │   └── publication_flowchart.png    # output image file Graphiz
+│   └── langgraph_flowchart.mmd      # output file Mermaid diagram (flowchart)
+│   └── Untitled diagram _ Mermaid Chart-2025-07-09-115351.png    # output Mermaid diagram (flowchart) in png
 
 ```
  

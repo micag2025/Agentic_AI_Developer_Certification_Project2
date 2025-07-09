@@ -16,18 +16,21 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 ```
 Agentic_AI_Developer_Certification_Project2/
 ├── app.py                    # Main Streamlit app UI (entry point for the web interface)
-├── utils.py                  # Utility functions (file sanitization, masking, etc.)
+├── utils.py                  # Helper functions for path and string handling
 ├── explorer.py               # Core logic for publication analysis using LangGraph and LLMs
-├── .env.example              # Example Environment file storing secret API keys 
-├── sample_publications/      # Directory containing input publication `.txt` files
-│   └── <publication .txt>    #     ↳ Each text file represents a single publication
+├── .env.example              # Example Environment file storing secret API keys
+├── data/                     #
+│   └──project_1_publications.json   # Sample Ready Tensor dataset
+│   └──sample_publications/      # Directory containing input publication `.txt` files
+│      └── <publication .txt>    #     ↳ Each text file represents a single publication
 ├── requirements.txt          # Dependency list for pip install (Streamlit, LangChain, etc.)
 ├── README.md          	      # This file contains the documentation for the project, explaining how to set it up and use it.
 ├── .gitignore        	      # This file specifies the files and folders that should be ignored by Git.   TO BE ENCLOSED 
 ├── LICENCE    	            # This file contains the license for the project.
 ├── outputs/    	            # TO BE ENCLOSED 
 │   └── <response .txt>       #     ↳ Each text file represents a single publication
-├── project_1_publications.json   # Sample Ready Tensor dataset 
+├── loader.py                 # Converts JSON into individual .txt files from the Sample Ready Tensor dataset
+├── paths.py                  # Centralized path definitions
 
 ```
 > _Note:_ *The Ready_Tensor_Multi_Publications_Assistent.ipynb* will be dropped out. Now it could be useful to work on the intro and features.  

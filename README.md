@@ -18,8 +18,8 @@ Agentic_AI_Developer_Certification_Project2/
 ├── app.py                    # Main Streamlit app UI (entry point for the web interface)
 ├── utils.py                  # Helper functions for path and string handling
 ├── explorer.py               # Core logic for publication analysis using LangGraph and LLMs
-├── .env.example              # Example Environment file storing secret API keys
-├── data/                     #
+├── .env.example              # Example environment file storing secret API keys
+├── data/                     
 │   └──project_1_publications.json   # Sample Ready Tensor dataset
 │   └──sample_publications/      # Directory containing input publication `.txt` files
 │      └── <publication .txt>    #     ↳ Each text file represents a single publication

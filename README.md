@@ -37,6 +37,8 @@ Agentic_AI_Developer_Certification_Project2/
 │   └── publication_flowchart.png    # output image file Graphiz
 │   └── langgraph_flowchart.mmd      # output file Mermaid diagram (flowchart)
 │   └── Untitled diagram _ Mermaid Chart-2025-07-09-115351.png    # output Mermaid diagram (flowchart) in png
+├── examples_screens   #
+│      └── <screenshot .jpeg>    #     ↳ Each jpeg file represents a section of screenshot of example usage of the StreamLit interface 
 
 ```
  

@@ -31,9 +31,12 @@ Agentic_AI_Developer_Certification_Project2/
 │   └── <response .txt>       #     ↳ Each text file represents a single publication
 ├── loader.py                 # Converts JSON into individual .txt files from the Sample Ready Tensor dataset
 ├── paths.py                  # Centralized path definitions
+├── generate_graphviz_flowchart.py   # Generates a Graphviz PNG diagram of the LangGraph orchestration flow
+├── docs/
+│   └── publication_flowchart.png    # output image file Graphiz
 
 ```
-> _Note:_ *The Ready_Tensor_Multi_Publications_Assistent.ipynb* will be dropped out. Now it could be useful to work on the intro and features.  
+ 
 
 ## Prerequisites
 * Python 3.10+

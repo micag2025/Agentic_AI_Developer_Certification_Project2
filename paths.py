@@ -21,14 +21,14 @@ DATA_DIR = ROOT_DIR / "data"
 SAMPLE_PUBLICATION_DIR = DATA_DIR / "sample_publications"
 OUTPUTS_DIR = ROOT_DIR / "outputs"
 #PUBLICATION_FPATH = DATA_DIR / "project_1_publications.json"
-
+DOCS_DIR = ROOT_DIR / "docs"
 
 # Convert to str for os compatibility
 DATA_DIR = str(DATA_DIR)
 SAMPLE_PUBLICATION_DIR = str(SAMPLE_PUBLICATION_DIR)
 OUTPUTS_DIR = str(OUTPUTS_DIR)
 #PUBLICATION_FPATH = str(PUBLICATION_FPATH)
-
+DOCS_DIR = str(DOCS_DIR)
 #print(f"[DEBUG] ROOT_DIR resolved to: {ROOT_DIR}")
 
 #if __name__ == "__main__":

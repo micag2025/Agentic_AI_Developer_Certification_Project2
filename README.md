@@ -7,7 +7,7 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 ## Project Description  
 This is an AI-powered Streamlit web app that allows users to compare the content of two scientific publications, available in a sample Ready Tensor dataset, side-by-side using natural language queries. Powered by LangChain, LangGraph, and OpenAI APIs, it automates the extraction of key attributes such as tools, datasets, evaluation methods, and results from publications. The system supports visual flowchart generation with Mermaid and Graphviz, handles publication profiling, trend aggregation, fact-checking, and contextual enrichment via external search tools. It follows secure development practices using .env for API keys, includes modular design for testability, and provides Mermaid and Graphviz diagrams for transparent orchestration logic.  
 
-This project is part of the Agentic AI Developer Certification Program, demonstrating the use of agent-based workflows for real-world tasks such as document comparison, summarization, fact-checking, and enrichment to be used (useful) for Ready Tensor Users, Developers/Engineers and Enterprises/Institutions.
+This project is part of the Agentic AI Developer Certification Program, demonstrating the use of agent-based workflows for real-world tasks such as document comparison, summarization, fact-checking and enrichment to be used by Ready Tensor Users, Developers/Engineers and Enterprises/Institutions.
 
 
 ## Features  
@@ -28,6 +28,33 @@ Structured results including:
 - Export to HTML and JSON for easy sharing or downstream processing
 
 - Environment-driven setup with .env for secure API key management 
+
+
+**Data Processing**    
+
+- _Publication Loader_: Unified loader for `.json` datasets of scientific publications  
+- _Publication Export_: Extracts and saves each publication as an individual `.txt` file  
+- _Preprocessing_: Cleans titles for filenames and preserves structured content  
+- _Secure Data Paths_: Centralized project path resolution for compatibility across environments  
+
+**Analysis Pipeline**  
+
+- _LangGraph Orchestration_: Modular, state-driven processing using LangGraph  / Agent-powered orchestration using LangGraph or similar tools  
+- _Profile Extraction_: Uses GPT to extract key attributes (tools, datasets, metrics, tasks, results)  
+- _Comparison Engine_: Performs side-by-side analysis aligned with user queries  
+- _Trend Aggregation_: Identifies evolving patterns in methods and findings  
+- _Fact-Checking Node_: Validates all generated insights against original publications  
+- _ReAct Enrichment_: Integrates external context via Tavily web search for deeper comparisons  
+
+**Visualization & Security**  
+
+- _Interactive Streamlit UI_: User-friendly interface for selecting, querying, and comparing publications  / Streamlit UI for selecting publications and comparison queries  
+- _Flowchart Generation_: Outputs workflow diagrams using Graphviz and Mermaid syntax  
+- _Mermaid Export_: Saves .mmd files for rendering in docs or CI pipelines  
+- _Graphviz Export_: Saves PNG diagrams of orchestration pipelines in docs/  
+- _Environment Safety_: Uses .env for API keys and provides a safe .env_example for sharing  / Environment-driven setup with .env for secure API key management 
+- _Git Hygiene_: Preconfigured `.gitignore` to protect secrets and generated files  
+
 
 
 ## Repository Structure  

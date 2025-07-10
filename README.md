@@ -156,13 +156,13 @@ streamlit run app.py
 5 Optionally, view the LangGraph flowchart in the sidebar or docs
 
 🔍 _Example: Side-by-Side Comparison_
-!(Streamlit comparison example)[examples_screens/5_Screenshot_Streamlit_example_usage1.jpeg]
+![Streamlit comparison example](examples_screens/5_Screenshot_Streamlit_example_usage1.jpeg)
 
 📋 Profile Extraction
-!(Extracted attributes per publication)[examples_screens/6_Screenshot_Streamlit_example_usage1_processing.jpeg]
+![Extracted attributes per publication](examples_screens/6_Screenshot_Streamlit_example_usage1_processing.jpeg)
 
 📈 Trend Analysis
-!(Trend extraction UI)[examples_screens/7_Screenshot_Streamlit_example_outputs_example_usage1.jpeg]
+!{Trend extraction UI](examples_screens/7_Screenshot_Streamlit_example_outputs_example_usage1.jpeg)
 
 ### 2. Flowchart Generation Example
 

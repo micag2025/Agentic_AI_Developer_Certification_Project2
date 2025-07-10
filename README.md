@@ -5,7 +5,8 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 
 
 ## Project Description  
-This is an AI-powered Streamlit web app that allows users to compare the content of two scientific publications side-by-side using natural language queries.
+This is an AI-powered Streamlit web app that allows users to compare the content of two scientific publications, available in a sample Ready Tensor dataset, side-by-side using natural language queries. Powered by LangChain, LangGraph, and OpenAI APIs, it automates the extraction of key attributes such as tools, datasets, evaluation methods, and results from publications. The system supports visual flowchart generation with Mermaid and Graphviz, handles publication profiling, trend aggregation, fact-checking, and contextual enrichment via external search tools. It follows secure development practices using .env for API keys, includes modular design for testability, and provides Mermaid and Graphviz diagrams for transparent orchestration logic.
+
 
 This project is part of the Agentic AI Developer Certification Program, demonstrating the use of agent-based workflows for real-world tasks such as document comparison, summarization, fact-checking, and enrichment.
 

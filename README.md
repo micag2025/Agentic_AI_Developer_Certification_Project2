@@ -148,21 +148,21 @@ You can now interact with the LangGraph-Orchestrated Research Assistant for Read
 streamlit run app.py
 ```
 
-📘 _Example User Flow_
-1 Select two publications from the dropdowns
-2 Choose a comparison topic (e.g., Evaluation Methods)
-3 Click "Compare"
-4 View the extracted profiles, comparisons, trends, and fact-checking
-5 Optionally, view the LangGraph flowchart in the sidebar or docs
+📘 _Example User Flow_  
+1 Select two publications from the dropdowns  
+2 Choose a comparison topic (e.g., Evaluation Methods)  
+3 Click "Compare"  
+4 View the extracted profiles, comparisons, trends, and fact-checking  
+5 Optionally, view the LangGraph flowchart in the sidebar or docs  
 
-🔍 _Example: Side-by-Side Comparison_
+🔍 _Example: Side-by-Side Comparison_  
 ![Streamlit comparison example](examples_screens/5_Screenshot_Streamlit_example_usage1.jpeg)
 
 📋 Profile Extraction
 ![Extracted attributes per publication](examples_screens/6_Screenshot_Streamlit_example_usage1_processing.jpeg)
 
 📈 Trend Analysis
-!{Trend extraction UI](examples_screens/7_Screenshot_Streamlit_example_outputs_example_usage1.jpeg)
+![Trend extraction UI](examples_screens/7_Screenshot_Streamlit_example_outputs_example_usage1.jpeg)
 
 ### 2. Flowchart Generation Example
 

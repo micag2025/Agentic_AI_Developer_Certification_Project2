@@ -49,10 +49,10 @@ Structured results including:
 **Visualization & Security**  
 
 - _Interactive Streamlit UI_: User-friendly interface for selecting, querying, and comparing publications  / Streamlit UI for selecting publications and comparison queries  
-- _Flowchart Generation_: Outputs workflow diagrams using Graphviz and Mermaid syntax  
-- _Mermaid Export_: Saves .mmd files for rendering in docs or CI pipelines  
+- _Flowchart Generation_: Outputs workflow diagrams using `Graphviz` and `Mermaid` syntax  
+- _Mermaid Export_: Saves `.mmd` files for rendering in docs or CI pipelines  
 - _Graphviz Export_: Saves PNG diagrams of orchestration pipelines in docs/  
-- _Environment Safety_: Uses .env for API keys and provides a safe .env_example for sharing  / Environment-driven setup with .env for secure API key management 
+- _Environment Safety_: Uses `.env` for API keys and provides a safe .env_example for sharing  / Environment-driven setup with .env for secure API key management 
 - _Git Hygiene_: Preconfigured `.gitignore` to protect secrets and generated files  
 
 
@@ -141,7 +141,43 @@ You can now interact with the LangGraph-Orchestrated Research Assistant for Read
 
 
 ## Usage Examples 
-TO BE ENCLOSED 
+
+### 1. Streamlit App Example
+🖥️ _Launch the UI_
+```
+streamlit run app.py
+```
+
+📘 _Example User Flow_
+1 Select two publications from the dropdowns
+2 Choose a comparison topic (e.g., Evaluation Methods)
+3 Click "Compare"
+4 View the extracted profiles, comparisons, trends, and fact-checking
+5 Optionally, view the LangGraph flowchart in the sidebar or docs
+
+🔍 _Example: Side-by-Side Comparison_
+!(Streamlit comparison example)[ ]
+
+📋 Profile Extraction
+!(Extracted attributes per publication)[ ]
+
+📈 Trend Analysis
+!(Trend extraction UI)[ ]
+
+### 2. Flowchart Generation Example
+
+# Generate Mermaid or Graphviz diagrams
+```
+python generate_langgraph_mermaid.py
+python generate_graphviz_flowchart.py
+
+```
+📁 Output:
+docs/langgraph_flowchart.mmd
+docs/publication_flowchart.png
+
+🔍 _Example: Side-by-Side Comparison_
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

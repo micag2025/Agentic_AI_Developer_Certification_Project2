@@ -142,7 +142,7 @@ You can now interact with the LangGraph-Orchestrated Research Assistant for Read
 
 ## Usage Examples 
 
-### 1. Streamlit App Example
+### Streamlit App Example
 🖥️ _Launch the UI_
 ```
 streamlit run app.py
@@ -164,9 +164,8 @@ streamlit run app.py
 📈 Trend Analysis
 ![Trend extraction UI](examples_screens/7_Screenshot_Streamlit_example_outputs_example_usage1.jpeg)
 
-### 2. Flowchart Generation Example
-
-# Generate Mermaid or Graphviz diagrams
+### Flowchart Generation Example
+_Generate Mermaid or Graphviz diagrams_
 ```
 python generate_langgraph_mermaid.py
 python generate_graphviz_flowchart.py
@@ -175,8 +174,6 @@ python generate_graphviz_flowchart.py
 📁 Output:
 docs/langgraph_flowchart.mmd
 docs/publication_flowchart.png
-
-🔍 _Example: Side-by-Side Comparison_
 
 
 ## License

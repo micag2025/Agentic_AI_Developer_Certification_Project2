@@ -5,11 +5,29 @@ and it is linked to the publication:**Agentic AI Developer Certification: LangGr
 
 
 ## Project Description  
-**TO BE ENCLOSED**   
+This is an AI-powered Streamlit web app that allows users to compare the content of two scientific publications side-by-side using natural language queries.
+
+This project is part of the Agentic AI Developer Certification Program, demonstrating the use of agent-based workflows for real-world tasks such as document comparison, summarization, fact-checking, and enrichment.
 
 
 ## Features  
-**TO BE ENCLOSED**    
+Streamlit UI for selecting publications and comparison queries
+
+Agent-powered orchestration using LangGraph or similar tools
+
+Support for predefined and custom queries like "Tool Usage", "Datasets", or "Evaluation Methods"
+
+Structured results including:
+
+- Summary of differences
+
+- Fact-checking content
+
+- Enrichment using AI agents
+
+- Export to HTML and JSON for easy sharing or downstream processing
+
+- Environment-driven setup with .env for secure API key management 
 
 
 ## Repository Structure  

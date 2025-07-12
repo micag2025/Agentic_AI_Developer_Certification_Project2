@@ -161,8 +161,8 @@ python generate_graphviz_flowchart.py
 
 ```
 📁 Output:
-docs/langgraph_flowchart.mmd  
-docs/publication_flowchart.png  
+<!-- ![Flowchart](docs/langgraph_flowchart.mmd)  -->
+![Flowchart](docs/publication_flowchart.png)
 
 
 ## License

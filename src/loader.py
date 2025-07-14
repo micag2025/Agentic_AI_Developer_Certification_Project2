@@ -5,15 +5,7 @@ Extracts publications from data/project_1_publications.json and saves each one
 as an individual .txt file in data/sample_publications/.
 """
 
-
-#import os
 #from paths import ROOT_DIR
-
-#os.chdir(ROOT_DIR)
-#print(f"[DEBUG] Changed working directory to project root: {ROOT_DIR}")
-
-
-
 
 import os
 import json

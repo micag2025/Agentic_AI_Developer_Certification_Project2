@@ -13,9 +13,11 @@ from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
-
+src_dir = Path("src")
+from paths import SRC_DIR
 from explorer import PublicationExplorer
-from paths import SAMPLE_PUBLICATION_DIR, OUTPUTS_DIR
+#from paths import SAMPLE_PUBLICATION_DIR, OUTPUTS_DIR
+from src.paths import SAMPLE_PUBLICATION_DIR, OUTPUTS_DIR
 
 # Load environment variables
 load_dotenv()

@@ -13,7 +13,8 @@ from langchain.agents.agent_types import AgentType
 from langgraph.graph import StateGraph, END
 from langchain_core.messages import SystemMessage
 from langchain_community.tools.tavily_search.tool import TavilySearchResults
-
+from pathlib import Path
+from paths import SRC_DIR
 
 MAX_CHARS = 12000
 

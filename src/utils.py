@@ -8,7 +8,8 @@ Utility functions for file handling, path safety, and secure display.
 import os
 import re
 from typing import List
-
+from pathlib import Path
+from paths import SRC_DIR
 
 def list_text_files(directory: str) -> List[str]:
     """

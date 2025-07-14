@@ -10,10 +10,12 @@ from graphviz import Digraph
 from IPython.display import Image, display
 
 # Define output path
-#ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-#DOCS_DIR = os.path.join(ROOT_DIR, "docs")
-#os.makedirs(DOCS_DIR, exist_ok=True)
-from paths import DOCS_DIR
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+DOCS_DIR = os.path.join(ROOT_DIR, "docs")
+os.makedirs(DOCS_DIR, exist_ok=True)
+#from paths import DOCS_DIR
+from paths import SRC_DIR
+
 OUTPUT_PATH = os.path.join(DOCS_DIR, "publication_flowchart")
 
 # Create the flowchart

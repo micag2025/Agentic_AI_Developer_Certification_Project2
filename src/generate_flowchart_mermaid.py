@@ -6,7 +6,15 @@ prints it to the console, and saves it to docs/langgraph_flowchart.mmd.
 """
 
 import os
-from paths import DOCS_DIR
+#from paths import DOCS_DIR
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+DOCS_DIR = os.path.join(ROOT_DIR, "docs")
+os.makedirs(DOCS_DIR, exist_ok=True)
+from paths import SRC_DIR
+
+
+
+
 
 # Mermaid node styles
 NODE_STYLES = {

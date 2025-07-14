@@ -10,9 +10,11 @@ import os
 # Get project root 
 # Dynamic resolution for script + notebook/Streamlit
 try:
-    ROOT_DIR = Path(__file__).resolve().parent
+    #ROOT_DIR = Path(__file__).resolve().parent
+    ROOT_DIR = Path(__file__).resolve().parent.parent
 except NameError:
-    ROOT_DIR = Path(inspect.stack()[0].filename).resolve().parent
+    #ROOT_DIR = Path(inspect.stack()[0].filename).resolve().parent
+    ROOT_DIR = Path(inspect.stack()[0].filename).resolve().parent.parent
 
 
 #  Define all paths relative to ROOT_DIR
@@ -22,6 +24,7 @@ SAMPLE_PUBLICATION_DIR = DATA_DIR / "sample_publications"
 OUTPUTS_DIR = ROOT_DIR / "outputs"
 #PUBLICATION_FPATH = DATA_DIR / "project_1_publications.json"
 DOCS_DIR = ROOT_DIR / "docs"
+SRC_DIR = ROOT_DIR / "src"
 
 # Convert to str for os compatibility
 DATA_DIR = str(DATA_DIR)

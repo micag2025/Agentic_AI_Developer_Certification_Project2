@@ -35,7 +35,7 @@ This project is part of the Agentic AI Developer Certification Program, demonstr
 - _Flowchart Generation_: Outputs workflow diagrams using `Graphviz` and `Mermaid` syntax  
 - _Mermaid Export_: Saves `.mmd` files for rendering in docs or CI pipelines  
 - _Graphviz Export_: Saves PNG diagrams of orchestration pipelines in docs/  
-- _Environment Driven Setup _: Uses `.env` for API keys and provides a safe .env_example for sharing  
+- _Environment Driven Setup_: Uses `.env` for API keys and provides a safe .env_example for sharing  
 - _Git Hygiene_: Preconfigured `.gitignore` to protect secrets and generated files  
 
 **Structured results** including:  

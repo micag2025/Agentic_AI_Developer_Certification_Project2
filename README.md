@@ -22,7 +22,8 @@ This project is part of the Agentic AI Developer Certification Program, demonstr
 **Analysis Pipeline**  
 
 - _LangGraph Orchestration_: Modular, state-driven processing  agent-powered orchestration using LangGraph   
--   Support for predefined and custom queries like "Tool Usage", "Datasets", or "Evaluation Methods"
+- _Support for predefined and custom queries_ like "Tool Usage", "Evaluation Methods", "Datasets", "Task Types", "Results"  
+ or "Customer queries" (e.g. Which tools are used? What evaluation methods are applied? What task types are addressed?)  
 - _Profile Extraction_: Uses GPT to extract key attributes (tools, datasets, metrics, tasks, results)  
 - _Comparison Engine_: Performs side-by-side analysis aligned with user queries  
 - _Trend Aggregation_: Identifies evolving patterns in methods and findings  

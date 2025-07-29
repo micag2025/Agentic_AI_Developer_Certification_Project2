@@ -1,8 +1,13 @@
 # loader.py
 
 """
-Extracts publications from data/project_1_publications.json and saves each one
-as an individual .txt file in data/sample_publications/.
+Agent Role: Data Extractor Agent
+Specialization: Extracts publication data from a JSON file (data/project_1_publications.json) and
+saves each entry as a .txt file (data/sample_publications/).
+Intended for pre-processing and dataset preparation.
+
+This agent operates as a utility script for dataset extraction.
+
 """
 
 #from paths import ROOT_DIR
@@ -26,7 +31,8 @@ logger = logging.getLogger(__name__)
 
 def extract_publications_from_json(data_dir: str, output_dir: str) -> int:
     """
-    Loads publications from a JSON file in the data directory and saves each
+    Agent Role: Data Extractor Agent
+    Specialization: Loads publications from a JSON file in the data directory and saves each
     publication to a separate .txt file.
 
     Args:
@@ -35,6 +41,7 @@ def extract_publications_from_json(data_dir: str, output_dir: str) -> int:
 
     Returns:
         int: Number of publications successfully written.
+    
     """
     ensure_directory_exists(output_dir)
 

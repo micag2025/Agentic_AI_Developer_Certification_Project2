@@ -3,6 +3,9 @@
 """
 Generates a Mermaid flowchart of the LangGraph orchestration flow,
 prints it to the console, and saves it to docs/langgraph_flowchart.mmd.
+
+Each node represents an agent or processing step with a specific role.
+
 """
 
 import os
@@ -13,10 +16,7 @@ os.makedirs(DOCS_DIR, exist_ok=True)
 from paths import SRC_DIR
 
 
-
-
-
-# Mermaid node styles
+# Mermaid node styles for visual distinction of agent types
 NODE_STYLES = {
     "analyze_pub1": "#e0f7fa",
     "analyze_pub2": "#e0f7fa",
@@ -26,6 +26,19 @@ NODE_STYLES = {
     "fact_check_node": "#f8bbd0",
     "react_agent_tool": "#d1c4e9"
 }
+
+# Explicit agent descriptions for clarity and documentation
+AGENT_DESCRIPTIONS = {
+    "analyze_pub1": "Analyze Publication 1: Analyzes the first publication for key findings.",
+    "analyze_pub2": "Analyze Publication 2: Analyzes the second publication for key findings.",
+    "compare": "Compare Analyses: Compares both analyses to highlight similarities and differences.",
+    "aggregate_trends": "Aggregate Trends: Aggregates recurring trends across publications.",
+    "summarize": "Summarize: Summarizes the overall findings and trends.",
+    "fact_check_node": "Fact-Check: Fact-checks summarized results for accuracy.",
+    "react_agent_tool": "React Agent/Tool: Executes final actions or tool invocations.",
+    "end_node": "End: Marks the end of the orchestration flow."
+}
+
 
 # Flowchart edges
 EDGES = [
@@ -48,16 +61,17 @@ def generate_mermaid_code() -> str:
     lines = ["flowchart TD"]
     
     for src, tgt in EDGES:
-        lines.append(f"    {src} --> {tgt}")
+        src_label = AGENT_DESCRIPTIONS.get(src, src)
+        tgt_label = AGENT_DESCRIPTIONS.get(tgt, tgt)
+        lines.append(f'    {src}["{src_label}"] --> {tgt}["{tgt_label}"]')
     
-    # Add labeled end node
-    lines.append("    end_node[End]")
 
-    # Style nodes
+    # Style nodes for visual distinction
     for node, color in NODE_STYLES.items():
         lines.append(f"    style {node} fill:{color},stroke:#333,stroke-width:1px")
 
     return "\n".join(lines)
+
 
 def save_to_file(content: str, filepath: str) -> None:
     """
